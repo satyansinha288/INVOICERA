@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INVOICERA</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/fonts/stylesheet.css" />
+    <link rel="stylesheet" href="assets/css/glide.core.min.css" />
+
+    <!-- -----------------------------FavIcon---------------- -->
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/images/FavIcon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/FavIcon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/images/FavIcon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/images/FavIcon/site.webmanifest" />
+
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/css/intlTelInput.min.css" />
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/intlTelInput.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/utils.min.js"></script>
+
+
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="assets/images/logo (1).webp" alt="" />
+        </div>
+        <div class="navigation">
+          <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Benefits</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <button  onclick="show('popup')">Book A Free Demo</button>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <div class="popup custom-animation" id="popup">
+      <div class="popup1">
+          <div class="popupbox">
+              <button class="cross" onclick="hide('popup')">X</button>
+      <h2>Enter Your Details</h2>
+      <form action="">
+        <div class="name input" style="display: inline;">
+          <input type="text" placeholder="Name">
+        </div>
+        <div class="email input" style="display: inline;">
+          <input type="text" placeholder="Email ID">
+        </div>
+        <div class="contact" style="display: inline;">
+          <input type="text" id="call"  placeholder="Phone number">
+        </div>
+        <div class="company input"style="display: inline;">
+          <input type="text" placeholder="Company">
+        </div>
+        <button type="submit" class="btn-primary btn">Book a Free Demo</button>
+        
+
+      </form>
+
+          </div>
+
+      </div>
+      
+    </div>
+
+
+
+
+    <div class="banner">
+      <div class="container">
+        <div class="text">
+          <h6>World's Most Powerful</h6>
+          <h1>
+            Online Invoicing & Billing <br />
+            Software
+          </h1>
+          <p>
+            Automate your business processes & communication <br />
+            with online invoicing, recurring billing, & more.
+          </p>
+          <ul>
+            <li>Auto Billing & Time Tracking</li>
+            <li>Multi-Business Management</li>
+            <li>Expense & Staff Management</li>
+            <li>Invoice Approval Process</li>
+            <li>Pre-Designed & Custom Invoice Templates</li>
+          </ul>
+          <a class="btn-primary">Book a Demo</a>
+          <a
+            class="btn-secondary"
+            style="padding: 15px; border: 1px solid #ec6b16"
+            >Get a Custom Quote</a
+          >
+        </div>
+
+        <picture>
+          <source src="assets/images/Group-1000003268.webp" type="image/webp" />
+          <source src="assets/images/frame3.png" type="image/png" />
+          <img class="frame" src="assets/images/frame3.png" alt="" />
+        </picture>
+      </div>
+    </div>
+
+    <section class="section1">
+      <div class="container">
+        <p>Our Top Global Partners</p>
+        <img src="assets/images/Group.png" />
+      </div>
+    </section>
+    <section class="section2">
+      <div class="container">
+        <div class="card text-center m-b-140">
+          <h4>Stats that Make Us Different From Others</h4>
+          <div class="row">
+            <div class="col">
+              <h3>3M+</h3>
+              <p>Active Users and Counting</p>
+            </div>
+            <div class="col">
+              <h3>60+</h3>
+              <p>Countries using Invoicera</p>
+            </div>
+            <div class="col">
+              <h3>80+</h3>
+              <p>Enterprise Integration</p>
+            </div>
+            <div class="col1">
+              <h3>18+</h3>
+              <p>Years of Domain Expertise</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section3">
+      <div class="container">
+        <h3 class="text-center">We Love To Hear From Our Users</h3>
+        <p>Have a look at what our customers say</p>
+
+        <!----------------------------- Slider ---------------------------- -->
+
+        <div class="glide">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <div class="card">
+                  <div class="star">
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                  </div>
+
+                  <p>
+                    We compared a range of products for Billing & Invoicing
+                    softwares all around , but Invoicera came out as the best!
+                    It's very easy and handy to use. I think Invoicera should be
+                    Highly recommended!
+                  </p>
+                  <div class="profile">
+                    <div class="pic">
+                      <img src="assets/images/name.png" alt="" />
+                    </div>
+                    <div class="name">
+                      <h6>Dr Robert Slater</h6>
+                      <p>B2B Marketing</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="glide__slide">
+                <div class="card">
+                  <div class="star">
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                  </div>
+                  <p>
+                    I have been using Invoicera for 5 years and found it
+                    fantastic. I use invoicera to manage my business, the
+                    experience has been good. Easy to use software that I would
+                    recommend to everyone!
+                  </p>
+                  <div class="profile">
+                    <div class="pic">
+                      <img src="assets/images/name2.png" alt="" />
+                    </div>
+                    <div class="name">
+                      <h6>Dave Edworthy</h6>
+                      <p>Commercial Antennas</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="card">
+                  <div class="star">
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                  </div>
+                  <p>
+                    I needed a solution to replace manual invoicing.Invoicera
+                    made it simpler to invoice. Now, I spend less time manually
+                    and more time helping clients with their queries. Incredibly
+                    intuitive invoicing software.
+                  </p>
+                  <div class="profile">
+                    <div class="pic">
+                      <img src="assets/images/name3.png" alt="" />
+                    </div>
+                    <div class="name">
+                      <h6>Jacob Davis</h6>
+                      <p>Consultant</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="glide__slide">
+                <div class="card">
+                  <div class="star">
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                  </div>
+                  <p>
+                    I have been using Invoicera for 5 years and found it
+                    fantastic. I use invoicera to manage my business, the
+                    experience has been good. Easy to use software that I would
+                    recommend to everyone!
+                  </p>
+                  <div class="profile">
+                    <div class="pic">
+                      <img src="assets/images/name2.png" alt="" />
+                    </div>
+                    <div class="name">
+                      <h6>Dave Edworthy</h6>
+                      <p>Commercial Antennas</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="card">
+                  <div class="star">
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                  </div>
+                  <p>
+                    I needed a solution to replace manual invoicing.Invoicera
+                    made it simpler to invoice. Now, I spend less time manually
+                    and more time helping clients with their queries. Incredibly
+                    intuitive invoicing software.
+                  </p>
+                  <div class="profile">
+                    <div class="pic">
+                      <img src="assets/images/name3.png" alt="" />
+                    </div>
+                    <div class="name">
+                      <h6>Jacob Davis</h6>
+                      <p>Consultant</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="glide__slide">
+                <div class="card">
+                  <div class="star">
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                  </div>
+                  <p>
+                    We compared a range of products for Billing & Invoicing
+                    softwares all around , but Invoicera came out as the best!
+                    It's very easy and handy to use. I think Invoicera should be
+                    Highly recommended!
+                  </p>
+                  <div class="profile">
+                    <div class="pic">
+                      <img src="assets/images/name.png" alt="" />
+                    </div>
+                    <div class="name">
+                      <h6>Dr Robert Slater</h6>
+                      <p>B2B Marketing</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="glide__slide">
+                <div class="card">
+                  <div class="star">
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                  </div>
+                  <p>
+                    I have been using Invoicera for 5 years and found it
+                    fantastic. I use invoicera to manage my business, the
+                    experience has been good. Easy to use software that I would
+                    recommend to everyone!
+                  </p>
+                  <div class="profile">
+                    <div class="pic">
+                      <img src="assets/images/name2.png" alt="" />
+                    </div>
+                    <div class="name">
+                      <h6>Dave Edworthy</h6>
+                      <p>Commercial Antennas</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="card">
+                  <div class="star">
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                  </div>
+                  <p>
+                    I needed a solution to replace manual invoicing.Invoicera
+                    made it simpler to invoice. Now, I spend less time manually
+                    and more time helping clients with their queries. Incredibly
+                    intuitive invoicing software.
+                  </p>
+                  <div class="profile">
+                    <div class="pic">
+                      <img src="assets/images/name3.png" alt="" />
+                    </div>
+                    <div class="name">
+                      <h6>Jacob Davis</h6>
+                      <p>Consultant</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="card">
+                  <div class="star">
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                  </div>
+                  <p>
+                    We compared a range of products for Billing & Invoicing
+                    softwares all around , but Invoicera came out as the best!
+                    It's very easy and handy to use. I think Invoicera should be
+                    Highly recommended!
+                  </p>
+                  <div class="profile">
+                    <div class="pic">
+                      <img src="assets/images/name.png" alt="" />
+                    </div>
+                    <div class="name">
+                      <h6>Dr Robert Slater</h6>
+                      <p>B2B Marketing</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="card">
+                  <div class="star">
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                    <img src="assets/images/star.png" alt="" />
+                  </div>
+                  <p>
+                    I have been using Invoicera for 5 years and found it
+                    fantastic. I use invoicera to manage my business, the
+                    experience has been good. Easy to use software that I would
+                    recommend to everyone!
+                  </p>
+                  <div class="profile">
+                    <div class="pic">
+                      <img src="assets/images/name2.png" alt="" />
+                    </div>
+                    <div class="name">
+                      <h6>Dave Edworthy</h6>
+                      <p>Commercial Antennas</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <div class="glide__bullets" data-glide-el="controls[nav]">
+              <button class="glide__bullet" data-glide-dir="=0"></button>
+              <button class="glide__bullet" data-glide-dir="=1"></button>
+              <button class="glide__bullet" data-glide-dir="=2"></button>
+              <button class="glide__bullet" data-glide-dir="=3"></button>
+            </div>
+          </div>
+        </div>
+        <a class="btn-primary" style="color: #ffffff; text-decoration: none"
+          >Book a Demo</a
+        >
+        <img class="OR" src="assets/images/OR.png" alt="">
+        <a class="btn-secondary">Get a Custom Quote</a>
+      </div>
+    </section>
+
+    <section class="selection">
+      <div class="container">
+        <h2 class="text-center">Invoicing Software for Every Business</h2>
+        <p class="text-center">
+          All-in-one invoicing software for your business to manage & track
+          payments, expenses, bills & more.
+        </p>
+
+        <div class="navigation text-center">
+          <ul>
+            <li>
+              <img id="img" loading="lazy" src="assets/images/Group1.png" alt="" />
+              <button class="tablinks active" onclick="openTab(event,'card')" href="">Online Invoicing</button>
+            </li>
+            <li>
+              <img id="imgs" loading="lazy" src="assets/images/Group2.png" alt="" />
+              <button class="tablinks active" onclick="openTab(event,'card1')" href="">Custom Workflow Management</button>
+            </li>
+            <li>
+              <img id="imgs" loading="lazy" src="assets/images/Group3.png" alt="" />
+              <button class="tablinks active" onclick="openTab(event,'card2')" href="">Financial Reporting and Analysis</button>
+            </li>
+            <li>
+              <img id="imgs" style="right: 96px
+              ;" loading="lazy" src="assets/images/Group4.png" alt="" />
+              <button class="tablinks active" onclick="openTab(event,'card3')" href="">Receive Payments Online</button>
+            </li>
+          </ul>
+        </div>
+        <div class="tab"  id="card">
+          <div class="text">
+            <h5>Online Invoicing</h5>
+            <p>
+              Send accurate online invoices in one go with the <br> revolutionary
+              invoice approval process built-in with <br> Invoicera’s utility billing
+              software. It is simple and <br> exactly what your business needs right
+              now.
+            </p>
+            <ul>
+              <li>Auto Billing & Time Tracking</li>
+              <li>Multi-Business Management</li>
+              <li>Expense & Staff Management</li>
+              <li>Invoice Approval Process</li>
+              <li style="padding-bottom: 144px;">Pre-Designed & Custom Invoice Templates</li>
+            </ul>
+          </div>
+          <div class="img">
+            <picture>
+              <source src="assets/images/GR1.webp" type="image/webp" />
+              <source src="assets/images/GR1.png" type="image/png" />
+              <img src="assets/images/GR1.png" alt="" style="width: 721px
+              ;" />
+            </picture>
+          </div>
+        </div>
+        
+        <div class="tab" id="card1">
+          <div class="text">
+            <h5>Custom Workflow Management</h5>
+            <p>
+              Configure invoice workflow as per your business needs and <br> make invoicing seamless with an invoice approval system. The <br> seamless flow of accurate information is just a click away with <br> Invoicera’s utility billing software.
+            </p>
+            <ul>
+              <li>Enable Invoice Approval Process</li>
+              <li>Select Business Requirements</li>
+              <li>Define Approval Authorities</li>
+              <li>Send Invoice to Staff For Approval</li>
+            </ul>
+          </div>
+          <div class="img">
+            <picture>
+              <source src="assets/images/GR2.webp" type="image/webp" />
+              <source src="assets/images/GR2.png" type="image/png" />
+              <img src="assets/images/GR2.png" alt="" />
+            </picture>
+          </div>
+        </div>
+
+        <div class="tab" id="card2">
+          <div class="text">
+            <h5>Financial Reporting and Analysis</h5>
+            <p>
+              Accurately forecast finances with detailed reports created <br> with Invoicera. Expense, staff productivity, project, and <br> estimate, generate all the reports from the same dashboard.
+            </p>
+            <ul>
+              <li>Generate detailed invoice reports</li>
+              <li>Customize reports according to need</li>
+              <li>Generate detailed estimate reports</li>
+              <li>Get detailed Credit Note reports</li>
+            </ul>
+          </div>
+          <div class="img">
+            <picture>
+              <source src="assets/images/GR3.webp" type="image/webp" />
+              <source src="assets/images/GR3.png" type="image/png" />
+              <img src="assets/images/GR3.png" alt="" />
+            </picture>
+          </div>
+        </div>
+
+        <div class="tab" id="card3">
+          <div class="text">
+            <h5>Receive Payments Online</h5>
+            <p>
+              30+ online payment gateways integrated with <br> Invoicera help you accept online payments worldwide.            </p>
+            <ul>
+              <li>Create simple reports for both credits and payments</li>
+              <li>Generate refunds easily</li>
+              <li>Manage refunds with online payments</li>
+              <li>Know your profit and loss statements</li>
+            </ul>
+          </div>
+          <div class="img">
+            <picture>
+              <source src="assets/images/GR4.webp" type="image/webp" />
+              <source src="assets/images/GR4.png" type="image/png" />
+              <img src="assets/images/GR4.png" alt="" />
+            </picture>
+          </div>
+        </div> 
+
+
+
+      </div>
+    </section>
+
+    <section class="billing text-center">
+      <div class="container">
+        <h2>Invoicera Benefits for Your Enterprise Billing</h2>
+        <p>
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit.
+        </p>
+        <div class="row">
+          <div class="col">
+            <img src="assets/images/Vector.png" alt="" />
+            <h3>Manage Multi-Clients at Once</h3>
+            <p>
+              Hundreds of invoices piling up on your table can now be settled
+              automatically without giving you a major headache. Simply host an
+              enterprise invoicing software with Invoicera in your environment
+              and manage multi-client invoices without even spending more than
+              30 mins in a day.
+            </p>
+          </div>
+
+          <div class="col">
+            <img src="assets/images/Vector1.png" alt="" />
+            <h3>Precisely Manage Billing Frequency</h3>
+            <p>
+              Automation is your one-stop solution to manage every recurring
+              bill on time even when the occupied human mind fails to remember.
+              Automate your invoicing process with Invoicera’s enterprise
+              billing software.
+            </p>
+          </div>
+          <div class="col">
+            <img src="assets/images/Vector2.png" alt="" />
+            <h3>Proactive Client Communication</h3>
+            <p>
+              An organization needs to be always available to resolve client
+              queries. To make it easier, Invoicera's cloud billing software
+              allows you to save every client document in the cloud for easy
+              access at the time of need.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img src="assets/images/Vector3.png" alt="" />
+            <h3>Seamless Workflow</h3>
+            <p>
+              To be always on time, it is important that workflows seamlessly.
+              An online task/employee management allows you to delegate and
+              manage tasks online with complete transparency and accountability.
+            </p>
+          </div>
+
+          <div class="col">
+            <img src="assets/images/Vector4.png" alt="" />
+            <h3>Remote Working Staff Management</h3>
+            <p>
+              Invoicera helps you in streamlining the entire workflow in the
+              business by bringing it online. Simply delegate tasks and
+              responsibilities online to staff members to increase transparency
+              and trackability even while working remotely.
+            </p>
+          </div>
+          <div class="col">
+            <img src="assets/images/Vector5.png" alt="" />
+            <h3>Project Management with Time Tracking</h3>
+            <p>
+              To bill your clients accurately for every project you’ve worked
+              on, simply track time with Invoicera enterprise billing solution
+              and convert it into bills with a click.
+            </p>
+          </div>
+        </div>
+        <a class="btn-primary" style="color: #ffffff; text-decoration: none"
+          >Book a Demo</a
+        >
+        <img class="OR" src="assets/images/OR.png" alt="">
+        <a class="btn-secondary">Get a Custom Quote</a>
+      </div>
+    </section>
+
+    <section class="invoice text-center">
+      <div class="container">
+        <h2>
+          Make Your Invoices Aesthetically Correct With <br>
+          Our Pre-Designed and Customizable Invoicing Templates
+        </h2>
+        <p>
+          All-in-one invoicing software to manage & track payments, expenses,
+          bills & more.
+        </p>
+        <div class="image">
+          <picture>
+            <source src="assets/images/frame2.webp" type="image/webp" />
+            <source src="assets/images/frame2.png" type="image/png" />
+            <img src="assets/images/frame2.png" alt="" />
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <section class="invoicing text-center">
+      <div class="container">
+        <h2>Invoicing Software for Multiple Business</h2>
+        <p>
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit.
+        </p>
+        <div class="card">
+          <div class="row">
+            <div class="square" style="border-top-left-radius: 7px">
+              <img src="assets/images/sq1.png" alt="" />
+              <p>Digital Agencies</p>
+            </div>
+            <div class="square">
+              <img src="assets/images/sq2.png" alt="" />
+              <p>Consultants & IT Firms</p>
+            </div>
+            <div class="square">
+              <img src="assets/images/sq3.png" alt="" />
+              <p>Tour & Travels</p>
+            </div>
+            <div class="square">
+              <img src="assets/images/sq4.png" alt="" />
+              <p>Insurance & Banking</p>
+            </div>
+            <div class="square">
+              <img src="assets/images/sq5.png" alt="" />
+              <p>Telecommunication</p>
+            </div>
+            <div class="square" style="border-top-right-radius: 7px">
+              <img src="assets/images/sq6.png" alt="" />
+              <p>Transportation & Logistics</p>
+            </div>
+          </div>
+          <div class="row" style="border-top: none;">
+            <div class="squares" style="border-bottom-left-radius: 7px">
+              <img src="assets/images/sq7.png" alt="" />
+              <p>Restaurants & Hotels</p>
+            </div>
+            <div class="squares">
+              <img src="assets/images/sq8.png" alt="" />
+              <p>Manufacturers</p>
+            </div>
+            <div class="squares">
+              <img src="assets/images/sq9.png" alt="" />
+              <p>Legal Firms</p>
+            </div>
+            <div class="squares">
+              <img src="assets/images/sq10.png" alt="" />
+              <p>Real Estate</p>
+            </div>
+            <div class="squares">
+              <img src="assets/images/sq11.png" alt="" />
+              <p>Traders</p>
+            </div>
+            <div class="squares" style="border-bottom-right-radius: 7px">
+              <img src="assets/images/sq12.png" alt="" />
+              <p>Contractors</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="form text-center">
+      <div class="container">
+        <div class="myform text-center">
+          <h2>Get In Touch With - Our Experts</h2>
+          <p style="padding-top: 10px; padding-bottom: 40px">
+            Over 3 Million Users Have Chosen Invoicera
+          </p>
+
+          <form action="" name="myForm" onsubmit="return validateForm()">
+            <div id="formError">
+              <p class="formerror"></p>
+            </div>
+            <span class="name">
+              
+              <input type="text" placeholder="Name" name="name" />
+            </span>
+            <span class="email">
+              
+              <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              style="margin-left: 20px; margin-right: 20px"
+            />
+            </span>
+            <span class="contact">
+              
+              <input
+              type="tel"
+              name="contact"
+              id="contact"
+              style="padding-left: 48px;"
+              max-length="10"
+            />
+            
+            
+            </span>
+            
+            
+            <div class="textarea">
+              
+              <textarea
+                name="brief"
+                id="brief"
+                placeholder="Project Brief"
+              ></textarea>
+            </div>
+            <button class="btn-primary" type="submit">Send Your Request</button>
+          </form>
+     
+    </section>
+
+
+    <footer class="text-center">
+      <div>
+      <p>© Invoicera.io All rights reserved.</p>
+    </div>
+    </footer>
+ 
+      
+
+    <!-- Glider Script -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+
+
+    <script src="assets/js/main.js"></script>
+
+  
+  </body>
+</html>
+
